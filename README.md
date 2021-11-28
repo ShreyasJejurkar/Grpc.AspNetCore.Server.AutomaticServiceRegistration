@@ -1,6 +1,6 @@
 # Shreyas.Grpc.AspNetCore.Server.AutomaticServiceRegistration
 
-Automatic registration and mapping of Grpc services to `IApplicationBuilder` in ASP.NET Core
+Automatic registration and mapping of Grpc services to `IApplicationBuilder` in ASP.NET Core in one line.
 
 ## Installation
 
