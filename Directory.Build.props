@@ -5,6 +5,7 @@
 		<Description>A library for registrating Grpc services automatically</Description>
 		<Copyright>Shreyas Jejurkar</Copyright>
 		<PackageTags>dotnet; grpc; aspnetcore;</PackageTags>
+    <PackageId>Shreyas.Grpc.AspNetCore.Server.AutomaticServiceRegistration</PackageId>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
 	</PropertyGroup>
 	<PropertyGroup>
