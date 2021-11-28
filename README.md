@@ -27,9 +27,15 @@ Method name - `GrpcServicesEndpointRegistration.MapGrpcServicesFromAssemblies`
 ## Examples
 
 ```csharp
+// Old way
+// app.MapGrpcService<GreeterService>();
+// app.MapGrpcService<PersonService>();
+// app.MapGrpcService<CartService>();
+// app.MapGrpcService<ProductService>();
+
 // Here app is instance of WebApplication (IApplicableBuilder)
 
 app.MapGrpcServicesFromAssemblies(Assembly.GetExecutingAssembly());
 ```
 
-Above method will register all Grpc services which will be there in current executing assembly. It also accepts multiple assemblies to register services.
+Above method will register all Grpc services which will be there in the provided assembly. It also accepts multiple assemblies to register services.
