@@ -1,4 +1,6 @@
 # Shreyas.Grpc.AspNetCore.Server.AutomaticServiceRegistration
+[![.NET](https://github.com/ShreyasJejurkar/Grpc.AspNetCore.Server.AutomaticServiceRegistration/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ShreyasJejurkar/Grpc.AspNetCore.Server.AutomaticServiceRegistration/actions/workflows/dotnet.yml)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 Automatic registration and mapping of Grpc services to `IApplicationBuilder` in ASP.NET Core in one line.
 
