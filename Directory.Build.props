@@ -5,22 +5,11 @@
 		<Description>Automatic registration and mapping of Grpc services to IApplicationBuilder in ASP.NET Core in one line.</Description>
 		<Copyright>Shreyas Jejurkar</Copyright>
 		<PackageTags>dotnet; grpc; aspnetcore;</PackageTags>
-    <PackageId>Shreyas.Grpc.AspNetCore.Server.AutomaticServiceRegistration</PackageId>
+    	<PackageId>Shreyas.Grpc.AspNetCore.Server.AutomaticServiceRegistration</PackageId>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
-	</PropertyGroup>
-	<PropertyGroup>
-		<TargetFrameworks>net5.0;net6.0</TargetFrameworks>
-		<BaseIntermediateOutputPath>$(SolutionDir)\artifacts\$(MSBuildProjectName)\$(Configuration)</BaseIntermediateOutputPath>
-		<BaseOutputPath>$(SolutionDir)\artifacts\$(MSBuildProjectName)\$(Configuration)</BaseOutputPath>
-		<RepositoryUrl>https://github.com/MCCshreyas/Grpc.AspNetCore.Server.AutomaticServiceRegistration</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<VersionPrefix>0.5.0</VersionPrefix>
-		<Nullable>enable</Nullable>
-		<RootNamespace>Microsoft.AspNetCore.Builder</RootNamespace>
-		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\..\..\artifacts\$(MSBuildProjectName)\$(Configuration)</BaseIntermediateOutputPath>
+		<MSBUildProjectExtensionsPath>$(MSBuildProjectDirectory)\..\..\artifacts\$(MSBuildProjectName)\$(Configuration)\obj</MSBUildProjectExtensionsPath>
+		<BaseOutputPath>$(MSBuildProjectDirectory)\..\..\artifacts\$(MSBuildProjectName)\$(Configuration)</BaseOutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -28,14 +17,4 @@
 		<AnalysisLevel>latest</AnalysisLevel>
 		<AnalysisMode>Default</AnalysisMode>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetCore.App" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <PackageReference Include="Grpc.AspNetCore.Server" Version="2.40.0" />
-	  <PackageReference Include="Grpc.Core" Version="2.42.0" />
-	  <PackageReference Include="Grpc.Core.Api" Version="2.42.0" />
-	</ItemGroup>
 </Project>
