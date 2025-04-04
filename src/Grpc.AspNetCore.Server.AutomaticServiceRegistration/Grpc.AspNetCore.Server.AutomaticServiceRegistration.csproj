@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net5.0;net6.0</TargetFrameworks>
-		<RepositoryUrl>https://github.com/MCCshreyas/Grpc.AspNetCore.Server.AutomaticServiceRegistration</RepositoryUrl>
+		<RepositoryUrl>https://github.com/ShreyasJejurkar/Grpc.AspNetCore.Server.AutomaticServiceRegistration</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<VersionPrefix>0.5.0</VersionPrefix>
